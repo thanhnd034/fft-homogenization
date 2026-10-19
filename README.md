@@ -32,7 +32,7 @@ Periodic FFT iterations recover the fluctuation field around an imposed macrosco
 
 ## Reproducing the computation
 
-Install Python, NumPy, JAX and Matplotlib. Run from the repository root:
+Install Python, NumPy, JAX, and Matplotlib. Run from the repository root:
 
 ```bash
 python coupled_model_JAX.py
@@ -48,4 +48,4 @@ The solver is closely related to the numerical reference approach used by the se
 
 ## Current limitations
 
-This is a research prototype rather than a packaged or independently validated numerical library. Its single scripted run is computationally demanding at 512×512; adjust grid size and JAX execution environment as necessary. Thermal and mechanical iteration stopping criteria should be checked for the intended materials and load cases.
+This is a research prototype rather than a packaged or independently validated numerical library. Its single scripted run is computationally demanding at 512×512. Adjust grid size and JAX execution environment as necessary. Thermal and mechanical iteration stopping criteria should be checked for the intended materials and load cases.
